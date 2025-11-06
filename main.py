@@ -10,7 +10,7 @@ import os
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-# --- Import specifici di HiDream ---
+# --- Import specifici di HiDream ----
 from hi_diffusers import HiDreamImagePipeline
 from hi_diffusers import HiDreamImageTransformer2DModel
 from hi_diffusers.schedulers.fm_solvers_unipc import FlowUniPCMultistepScheduler
