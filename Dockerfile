@@ -1,5 +1,5 @@
 # Step 1: Scegliamo un'immagine di base
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-devel
 
 # Step 2: Impostiamo una cartella di lavoro
 WORKDIR /app
