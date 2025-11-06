@@ -5,7 +5,4 @@ transformers
 diffusers
 accelerate
 Pillow
-# Questa è la libreria specifica, va installata così da GitHub
-hidiffusers @ git+https://github.com/Hi-Dream/hidiffusers.git
-# Libreria per restituire l'immagine direttamente
 python-multipart
