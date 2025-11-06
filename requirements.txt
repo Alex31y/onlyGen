@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+torch
+transformers
+diffusers
+accelerate
+boto3  # Per il bucket AWS S3
+psycopg2-binary # Per il database PostgreSQL
+# Potrebbe servire installare hidiffusers direttamente da github se non è su pip
+# pip install git+https://github.com/path/to/hidiffusers-repo.git
