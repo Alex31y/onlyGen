@@ -1,8 +1,12 @@
-fastapi
-uvicorn[standard]
+# Dipendenze dal progetto originale HiDream
+numpy
+Pillow
 torch
 transformers
-diffusers
 accelerate
-Pillow
+einops
+
+# Le nostre dipendenze per il server web
+fastapi
+uvicorn[standard]
 python-multipart
